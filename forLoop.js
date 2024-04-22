@@ -23,9 +23,13 @@ for(const letter of sentence){
 }
 
 
-let reverse = "";
+// let reverse = "";
 
-for(const letter of sentence){
-    reverse = letter + reverse;
-}
+// for(const letter of sentence){
+//     reverse = letter + reverse;
+// }
+// console.log(reverse)
+
+
+const reverse = sentence.split("").reverse().join("");
 console.log(reverse)
