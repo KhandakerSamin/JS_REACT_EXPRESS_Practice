@@ -31,5 +31,7 @@ for(const letter of sentence){
 // console.log(reverse)
 
 
+// Sortcut
+
 const reverse = sentence.split("").reverse().join("");
 console.log(reverse)
