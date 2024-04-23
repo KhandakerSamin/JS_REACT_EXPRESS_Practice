@@ -23,18 +23,18 @@ const parson = {
 
 // dot notation
 
-// console.log(parson);
-// console.log(parson.profession);
-// const income = parson.salary;
-// console.log(income)
+console.log(parson);
+console.log(parson.profession);
+const income = parson.salary;
+console.log(income)
 
 
 // braket notation 
 
 
-// console.log(parson['age']);
-// const boyos = parson['age'];
-// console.log(boyos);
+console.log(parson['age']);
+const boyos = parson['age'];
+console.log(boyos);
 
 
 
@@ -71,7 +71,12 @@ const school ={
 }
 
 // console.log(school.unique.color);
-// school.unique.result.merit= 'toop toop toop most in'
-// console.log(school.unique.result.merit);
-// delete school.class;
-// console.log(school);
+school.unique.result.merit= 'toop toop toop most in'
+console.log(school.unique.result.merit);
+delete school.class;
+console.log(school);
+
+
+
+
+
