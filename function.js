@@ -18,3 +18,11 @@ function areaOfTriangle (a,b) {
 
 square(40);
 areaOfTriangle(4,5)
+
+
+function addAll (a,b,c,d,e) {
+    const total = a +b +c +d+e;
+    console.log("totla is " , total)
+}
+
+addAll(1,2,3,4,5);
